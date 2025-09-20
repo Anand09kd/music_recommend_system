@@ -1,8 +1,9 @@
-import pickle
 import streamlit as st
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
+import pickle
 import numpy as np
+import pandas as pd
+import spotipy                     # <-- Spotipy import here
+from spotipy.oauth2 import SpotifyClientCredentials
 import os
 
 # ------------------- Spotify Client -------------------
